@@ -1,0 +1,84 @@
+
+body{
+	background: url(http://cdn1.bigcommerce.com/n-ww20x/1n77e/products/3949/images/8240/132-TIFFANY_LUSTRE_TEXTURE-WHITE__15548.1461773003.386.386.jpg?c=2);
+}
+div#container {
+    width: 40%;
+    margin: 0 auto;
+}
+.main-div{
+	text-align: center;
+    margin-top: 10%;
+}
+input[type='text']{
+	width: 100%;
+    height: 56px;
+    border: 1px solid #a4a4a4;
+    border-radius: 5px;
+    text-indent: 50px;
+    box-shadow: 5px 10px 25px #929292;
+	margin-right:25px;
+}
+ input:focus, button:focus{
+    outline: none;
+}
+input[placeholder]{
+	font-size:28px;
+}
+li {
+    height: 50px;
+	background: white;
+    border-bottom: 1px solid #a4a4a4;
+    border-radius: 5px;
+    text-indent: 20px;
+    margin: 0;
+    line-height: 2;
+    font-size: 20px;
+	list-style:none;
+}
+#demo {
+    font-size: 15px;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+	padding-top:20px;
+	padding-left: 0;
+	display: table;
+}
+button {
+	float: right;
+    margin: 17px;
+    background: #b50505;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.strikethrough:checked + span{
+	text-decoration:line-through;
+	color: #b1b1b1;
+}
+span {
+    font-size: 24px;
+}
+input.strikethrough {
+    position: relative;
+    left: -10px;
+}
+input[type="checkbox"]#chk{
+    display:none;
+}
+input[type="checkbox"]#chk + label  {
+    display: inline-block;
+    height: 16px;
+    background: url(img/check.png) left top no-repeat;
+    cursor: pointer;
+    position: relative;
+    left: 15px;
+    top: 38px;
+    width: 16px;
+    float: left;
+}
+input[type="checkbox"]#chk:checked + label {
+    background:url("img/checked.png") left top no-repeat;
+}
